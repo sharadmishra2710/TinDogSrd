@@ -1,0 +1,172 @@
+
+
+
+
+/* ELEMENT'S CSS   */
+
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat-bold';
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  color: grey;
+}
+
+
+/* CLASS CSS */
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.price-text, .section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.block-header{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 3rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  ;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-light';
+  font-size: 1.2rem;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.feature-box {
+  text-align: center;
+  ;
+  padding: 3%
+}
+
+.icon {
+  padding-bottom: 3%;
+  color: #ff4c68;
+}
+
+.testimonials-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.testimonial-text {}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0 20px;
+}
+
+.pricing-item {
+  margin: 3% 5%;
+}
+
+.fa-icon {
+  padding-right: 7px;
+}
+
+.title-img {
+  width: 300px;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+.connect-icons {
+  margin: 25px 10px;
+}
+
+/* ID CSS */
+#features {
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  border: 1px solid;
+  text-align: left;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15% 3%;
+  text-align: center;
+}
+
+#footer {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+/* MEDIA CSS */
+@media (max-width: 1060px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    transform: rotate(0);
+    position: static;
+    padding-top: 75px;
+  }
+}
